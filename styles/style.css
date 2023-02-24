@@ -1,0 +1,32 @@
+.btn-bg-color{
+    background-color: #B68C5A;
+}
+
+.sub-title{
+    color: #707070;
+}
+.banner{
+   height: 550px;
+   width: 1170px;
+   background-repeat: no-repeat;
+   background-image: url("../images/banner.png");
+}
+@media screen and (max-width:576px) {
+    .banner{
+        width: 100%;
+    }
+}
+
+.icon-rotate{
+    transform: rotate(-45deg);
+}
+
+.flex-items{
+    display: flex;
+}
+@media screen and (max-width:576px) {
+    .flex-items{
+        display: block;
+        width: 75%;
+    }
+}
